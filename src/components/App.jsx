@@ -2,11 +2,10 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
+        justifyContent: 'start',
+        alignItems: 'start',
+        fontSize: '30px',
         color: '#010101',
       }}
     >
