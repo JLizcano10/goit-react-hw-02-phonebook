@@ -6,5 +6,5 @@ export const List = styled('ul')`
   justify-content: center;
   gap: 10px;
   padding-left: 56px;
-  width: 500px;
+  width: 100%px;
 `;
