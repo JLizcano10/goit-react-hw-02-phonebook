@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Filter = ({ handleFilter }) => {
+const Filter = ({ onFilter }) => {
   return (
     <div>
       <label>
         Find contacts by name
-        <input type="text" onChange={handleFilter} />
+        <input type="text" onChange={onFilter} />
       </label>
     </div>
   );
