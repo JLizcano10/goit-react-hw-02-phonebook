@@ -1,11 +1,13 @@
+import { ButtonListItem, ListItem } from './ContactElementList.styles';
+
 const ContactElementList = ({ contact, onDelete }) => {
   return (
-    <li key={contact.id}>
-      {contact.name}: {contact.number}{' '}
-      <button type="button" onClick={() => onDelete(contact.id)}>
+    <ListItem key={contact.id}>
+      {`${contact.name}: ${contact.number}`}
+      <ButtonListItem type="button" onClick={() => onDelete(contact.id)}>
         Delete
-      </button>
-    </li>
+      </ButtonListItem>
+    </ListItem>
   );
 };
 

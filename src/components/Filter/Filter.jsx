@@ -1,12 +1,13 @@
 import React from 'react';
+import { InputFilter, LabelFilter } from './Filter.styles';
 
 const Filter = ({ onFilter }) => {
   return (
     <div>
-      <label>
+      <LabelFilter>
         Find contacts by name
-        <input type="text" onChange={onFilter} />
-      </label>
+        <InputFilter type="text" onChange={onFilter} />
+      </LabelFilter>
     </div>
   );
 };
